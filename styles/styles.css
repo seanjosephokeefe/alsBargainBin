@@ -1,0 +1,124 @@
+body {
+    background-color: #fcd1d1;
+    color: black;
+    font-family: Calibri, Arial;
+    font-size: 19px;
+    margin: 0;
+}
+
+p {
+    font-size: 22px;
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2px 15px 2px 15px;
+    background-color: #801515;
+    color: #ffaaaa;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+}
+
+    button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+        background-color: #801515;
+        color: salmon;
+    }
+
+    button:active, input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+        background-color: #ffaaaa;
+        color: #801515;
+    }
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+	background-color:whitesmoke;
+	padding:0px 40px 40px 40px;
+	border:1px silver solid;
+}	
+
+#TblForm {
+	border-collapse:collapse;
+}
+	
+#TblForm tr:nth-child(odd) {
+	background: #ffaaaa;
+}
+
+#TblForm tr:nth-child(even) {
+	background: #FFF;
+}
+
+#TblForm th {
+	padding:10px;
+}	
+
+#TblForm td {
+	border:none;
+	padding:10px 20px 10px 20px;
+}
+
+#TblForm tr {
+	border:none;
+}
+	
+#DivHeading {
+    background-color: #550000;
+    text-align: center;
+}
+
+#DivMenu {
+    text-align: center;
+    border-bottom: #801515;
+    border-top: #801515;
+    background-color: #d46a64;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#DivBody {
+    padding: 5px 20px 10px 20px;
+    background-color: #fcd1d1;
+    color: black;
+}
+
+#DivContent {
+    padding: 5px 20px 10px 20px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#DivButtons {
+    text-align:center;
+}
+
+.tbMedium {
+    width:200px;
+}
+
+.error {
+    color:red;
+    font-weight:bold;
+	display:none;
+}
+
+.center {
+    text-align:center;
+}
+
+.whiteBG {
+	background-color:#ffffff;
+	padding-right:10px;
+	padding-left:10px;
+	border:1px solid silver;
+}
+
+.right {
+	text-align:right;
+}
+
+.bold {
+	font-weight:bold;
+}
